@@ -1,0 +1,142 @@
+body{
+    background-color: brown;
+    text-align: center;
+}
+h1{
+    font-family:   sans-serif;  
+    font-size: xx-large;  
+    line-height: 1.5;  
+    font-weight: 900; 
+}
+h3{
+    color: antiquewhite;
+}
+p{
+   width: 50%;
+   display: inline-block;
+}
+/* title section */
+#title{
+    background-color: crimson;
+    font-family: 'Montserrat', sans-serif; 
+    color: antiquewhite;
+    padding-bottom: 100px;
+}
+/* navbar */
+.navbar-brand{
+        font-size: 2.5rem;
+        font-weight: bold;
+        }
+.row{
+        padding-top: 50px;
+    }
+.title-text{
+        text-align: left;
+        padding-top: 3rem;
+    }
+    /* button */
+.download-btn{
+        margin: 5% 3% 5%;
+    }
+    /* image */
+.title-img{
+        width: 18rem;
+        transform: rotate(25deg);
+        position: absolute;
+        right:11rem;        
+    }
+    @media (max-width:800px) {
+        .title-img{
+            position: static;
+            transform: rotate(0);
+        }
+        .title-text{
+            text-align: center;
+        }
+        .row{
+        text-align: center;
+        }
+        
+    }
+/* feature section */
+#features{
+        background-color: antiquewhite;
+        position: relative;
+        z-index: 1;
+        }
+.feature-icon{
+        padding-bottom: 10px;
+        color: brown;
+    }
+.feature-icon:hover{
+        color: crimson;
+    }
+.box{
+       
+        padding: 5% 5% ;
+        margin-bottom: 0.25rem; 
+    }
+/* testimonials */
+#testimonials{
+       
+        background-color: brown;        
+        color: antiquewhite;
+    }
+.testimonials-image{
+        width: 20%;
+        border-radius: 100%;
+    }
+.carousel-item{
+        padding: 7% 15%;
+    }
+/* press */
+#press{
+        background-color: brown;
+} 
+.press-image{
+        width: 20%;
+        margin: 1rem;
+        padding-bottom: 5%;
+    }
+
+/* Pricing section */
+#pricing{
+        
+        padding-top: 5%;        
+     }
+.row{
+        padding: 4%;
+     }
+.card{
+        padding: 4%;
+        margin: auto;
+     }
+.line-gap{
+        margin-top: 35px;
+     }
+/* Call to Action section */
+    #cta{
+        background-color: crimson;
+        
+        padding: 7% 15%;
+}
+    .cta-heading{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+}
+
+/* Footer */
+#footer{
+        
+        padding: 2% 15% 0%;
+        
+    }
+.footer-icon{
+        margin: 10px;
+        
+    }
+
+.foot-text{
+        margin-top: 1rem;
+    }
+
